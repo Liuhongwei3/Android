@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: activity_music.xml
+  ~ Date: 20-5-27 下午6:26
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#221E1E"
+    tools:context="com.tadm.exp5_z09417216.MusicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:text="音乐列表：当前正在播放：" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#22FFAA"
+            />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8CFFFFFF"
+        />
+
+    <ListView
+        android:id="@+id/listViewMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

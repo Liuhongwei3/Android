@@ -1,0 +1,11 @@
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: strings.xml
+  ~ Date: 20-5-13 上午11:21
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<resources>
+    <string name="app_name">新短信</string>
+</resources>

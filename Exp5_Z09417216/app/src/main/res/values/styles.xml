@@ -1,0 +1,19 @@
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: styles.xml
+  ~ Date: 20-5-27 下午6:26
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

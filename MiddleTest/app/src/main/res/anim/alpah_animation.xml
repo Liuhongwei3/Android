@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: alpah_animation.xml
+  ~ Date: 20-5-6 下午12:49
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1500"
+    android:repeatMode="reverse">
+    <alpha
+        android:fromAlpha="0.2"
+        android:toAlpha="1.0"
+        android:repeatCount="infinite"/>
+</set>

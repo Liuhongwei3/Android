@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: menu.xml
+  ~ Date: 20-6-7 上午8:38
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about"
+        android:title="关于"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/changeBackground"
+        android:title="换背景"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/orange"
+                android:title="橙色" />
+            <item
+                android:id="@+id/pink"
+                android:title="粉红色" />
+            <item
+                android:id="@+id/white"
+                android:title="白色" />
+        </menu>
+    </item>
+    <item android:title="音乐">
+        <menu>
+            <item
+                android:id="@+id/play_menu"
+                android:title="播放音乐" />
+            <item
+                android:id="@+id/next_menu"
+                android:title="下首音乐" />
+            <item
+                android:id="@+id/stop_menu"
+                android:title="关闭音乐" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/tadm_player"
+        android:title="Tadm_player" />
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FrameLayout</string>
+    <string name="gama_detail">游戏详情</string>
+    <string name="go_game">进入游戏</string>
+    <string name="sub1">子项1</string>
+    <string name="sub2">子项2</string>
+</resources>

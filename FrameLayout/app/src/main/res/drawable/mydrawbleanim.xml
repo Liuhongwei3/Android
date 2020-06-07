@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="300" android:drawable="@drawable/wifi01"></item>
+    <item android:duration="300" android:drawable="@drawable/wifi02"></item>
+    <item android:duration="300" android:drawable="@drawable/wifi03"></item>
+    <item android:duration="300" android:drawable="@drawable/wifi04"></item>
+</animation-list>

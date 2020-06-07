@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: arrays.xml
+  ~ Date: 20-6-7 上午8:38
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<resources>
+    <string-array name="mood">
+        <item>开心</item>
+        <item>狂喜</item>
+        <item>幸福</item>
+        <item>满足</item>
+        <item>收获</item>
+        <item>平静</item>
+        <item>悲伤</item>
+        <item>后悔</item>
+        <item>愤怒</item>
+        <item>无聊</item>
+        <item>厌烦</item>
+    </string-array>
+    <string-array name="search">
+        <item>按内容</item>
+        <item>按心情</item>
+        <item>按日期</item>
+        <item>按时间</item>
+    </string-array>
+</resources>

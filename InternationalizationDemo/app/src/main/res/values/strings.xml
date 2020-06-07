@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Internationalization Demo</string>
+    <string name="tittle">你好，小机器人！</string>
+    <string name="CSLG">常熟理工学院</string>
+    <string name="Motto">立本求真，日新致远</string>
+</resources>

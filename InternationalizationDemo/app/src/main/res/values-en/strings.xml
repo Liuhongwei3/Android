@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Internationalization Demo</string>
+	<string name="tittle">Hello, little robot!</string>
+	<string name="CSLG">Changshu Institute of Technology</string>
+	<string name="Motto">Liben truth, Nisshin Zhiyuan</string>
+</resources>

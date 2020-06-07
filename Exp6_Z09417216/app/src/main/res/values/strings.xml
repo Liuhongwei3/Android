@@ -1,0 +1,11 @@
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: strings.xml
+  ~ Date: 20-6-3 下午2:28
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<resources>
+    <string name="app_name">Exp6_Z09417216_Weather</string>
+</resources>

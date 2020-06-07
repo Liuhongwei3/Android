@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tadm.framelayout">
+    <!-- 申请文件读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.tadm.MyApplication"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="HardcodedDebugMode">
+        <activity
+            android:name="com.tadm.network.AsyncTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.tadm.network.WeatherActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.tadm.video.SurfaceViewActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.tadm.video.VideoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.tadm.music.MusicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewPager2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DialogActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ViewFlipperLayout"
+            android:exported="true" />
+        <activity
+            android:name=".GameListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TableLayout"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

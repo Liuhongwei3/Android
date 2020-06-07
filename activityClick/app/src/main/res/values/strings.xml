@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">activityClick</string>
+    <string name="xiuxian">休闲驿站</string>
+    <string name="rao">绕口令</string>
+    <string name="joke">小笑话</string>
+    <string name="pu">扑克牌</string>
+    <string name="browser">浏览器</string>
+    <string name="call">打电话</string>
+    <string name="back">返回</string>
+</resources>

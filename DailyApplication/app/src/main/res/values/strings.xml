@@ -1,0 +1,11 @@
+<!--
+  ~ https://liuhongwei3.github.io Inc.
+  ~ Name: strings.xml
+  ~ Date: 20-6-7 上午8:38
+  ~ Author: Tadm
+  ~ Copyright (c) 2020 All Rights Reserved.
+  -->
+
+<resources>
+    <string name="app_name">Tadm 心情记</string>
+</resources>

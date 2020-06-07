@@ -1,0 +1,10 @@
+/*
+ * https://liuhongwei3.github.io Inc.
+ * Name: settings.gradle
+ * Date: 20-6-7 上午8:38
+ * Author: Tadm
+ * Copyright (c) 2020 All Rights Reserved.
+ */
+
+rootProject.name='DailyApplication'
+include ':app'

@@ -1,0 +1,10 @@
+/*
+ * https://liuhongwei3.github.io Inc.
+ * Name: settings.gradle
+ * Date: 20-5-6 下午12:49
+ * Author: Tadm
+ * Copyright (c) 2020 All Rights Reserved.
+ */
+
+rootProject.name='MiddleTest'
+include ':app'

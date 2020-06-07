@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonActivity"
+    android:padding="30dp">
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test button"
+        android:textSize="20dp"
+        android:textColor="#0066ff"
+        android:background="#fedd88"/>
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="have the radius"
+        android:textSize="20dp"
+        android:textColor="#0066ff"
+        android:background="@drawable/btn2"
+        android:layout_below="@id/btn_1"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change color"
+        android:textSize="20dp"
+        android:textColor="#0066ff"
+        android:background="@drawable/btn3"
+        android:layout_below="@id/btn_2"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test prompot box"
+        android:textSize="20dp"
+        android:textColor="#0066ff"
+        android:background="@drawable/btn2"
+        android:layout_below="@id/btn_3"
+        android:layout_marginTop="20dp"
+        android:onClick="showToast"
+        />
+    //Commonly used to click
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="have the radius"
+        android:textSize="20dp"
+        android:textColor="#0066ff"
+        android:background="@drawable/btn2"
+        android:layout_below="@id/btn_4"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#0066ff"
+        android:layout_below="@id/btn_5"
+        android:layout_marginTop="20dp"
+        android:text="test text"
+        android:background="#CCFFE5"
+        android:gravity="center"
+        />
+</RelativeLayout>
